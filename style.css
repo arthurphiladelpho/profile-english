@@ -1,0 +1,98 @@
+body {
+  background-color: rgb(240, 240, 240);
+  font-family: 'Poor Story', cursive;
+  color:  #858585;
+  font-size: 18px;
+  line-height: 20px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Bungee', cursive;
+  letter-spacing: 2px;
+  color: #4C4C4C;
+
+}
+
+a {
+  text-decoration: none;
+  color: #666666;
+  font-size: 1.1em;
+}
+
+a:hover {
+  color: #333333;
+  font-size: 1.2em;
+  text-decoration: none;
+}
+
+ul {
+  list-style: none;
+  text-align: center;
+}
+
+li {
+  display: inline-block;
+  padding: 10px 20px 0 20px;
+}
+
+li a:hover {
+  padding: 0px;
+}
+
+td img {
+  margin: 10px;
+}
+
+.main-header {
+  padding: 10px;
+}
+
+.basic-info {
+  text-align: center;
+}
+
+.container {
+  width: 90%;
+  margin: 0 auto;
+}
+
+.centered-div {
+  width: 70%;
+  margin: 10px auto;
+  background-color: #E8E8E8;
+  padding: 15px;
+  border-radius: 2px;
+  box-shadow: 1px 1px 3px #B3B3B3;
+}
+
+.profile-pic {
+  border-radius: 50%;
+  margin: 0 25px;
+}
+
+.project-pic {
+  width: 80%;
+  border-radius: 1px;
+  box-shadow: 2px 2px 3px #B3B3B3;
+
+}
+
+.subtitle {
+  font-size: 1em;
+}
+
+.social-media-links li {
+  line-height: 30px;
+}
+
+.content-title {
+  text-align: center;
+  padding: 15px;
+}
+
+@media (max-width: 650px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 640px;
+  }
+}
